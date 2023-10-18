@@ -6,16 +6,16 @@ import { UserPhoto } from "@components/UserPhoto";
 export function HomeHeader(){
   return (
     <HStack bg="gray.600" pt={16} pb={8} px={8} alignItems="center">
-      
-      <UserPhoto 
+
+      <UserPhoto
         source={{ uri: 'https://github.com/lucasoliveiraa.png'}}
-        size={16} 
-        alt="Image user" 
+        size={16}
+        alt="Image user"
         mr={4}
       />
       <VStack flex={1}>
         <Text color="gray.100" fontSize="md">Olá</Text>
-        <Heading color="gray.100" fontSize="md">Lucas</Heading>
+        <Heading color="gray.100" fontSize="md" fontFamily="heading">Lucas</Heading>
       </VStack>
 
       <TouchableOpacity>
